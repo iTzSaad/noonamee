@@ -1,0 +1,242 @@
+::selection {
+    color: black;
+    background-color: white;
+}
+
+body {
+    background-color: rgba(200, 200, 200, 0.9);
+}
+
+p {
+    font-family: 'Passion one';
+    font-size: 22px;
+    align-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.up {
+    color: rgba(200, 200, 200, 0.9);
+    font-family: 'Passion one';
+    font-size: 25px;
+    margin-top: 6mm;
+}
+
+.upnav {
+    background-color: rgba(60, 60, 60, 0.8);
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar1{
+    padding: 5.5px 9%;
+    background-color: rgb(54, 54, 54);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 50px;
+    transition: transform .6s;
+    margin-top: 2mm;
+    margin-left: 6mm;
+    margin-right: 5mm;
+    margin-bottom: 2mm;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0.1s;
+}
+
+.nav-bar li a:hover {
+    color: rgb(133, 132, 132);
+    transition: all 0.3s ease 0.1s;
+}
+
+.ct button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid teal;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform .6s;
+    color: teal;
+}
+
+.ct button:hover {
+    background-color: teal;
+    transition: all 0.3s ease 0.1s;
+    transform: scale(1.05);
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Anton, sans-serif;
+}
+
+
+.lg-in {
+    display: flex;
+    text-align: center;
+    margin: 25px auto;
+    width: 150px;
+    border: none;
+    animation: anilg infinite 3s;
+}
+@keyframes anilg {
+    0% {
+      transform: scale(1.2);
+  }
+  50% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.2);
+  }
+}
+
+.title {
+    color: teal;
+}
+
+.up:hover {
+    color: teal;
+}
+
+.skl {
+    width: 150px;
+    margin: 5mm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+
+.b1:hover {
+    transition: all 0.2s ease 0s;
+    transform: scale(1.1);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8cm;
+}
+
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.a2:hover {
+    animation: aninavlg infinite 2s;
+}
+
+@keyframes aninavlg {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.a1 {
+    text-align: center;
+}
+
+.proj1{
+    border: solid black 1px;
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 2cm;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.384);
+}
+
+.pj {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pj1 {
+    color: rgb(61, 61, 61);
+}
+
+.title1 {
+    display: flex;
+    justify-content: start;
+    font-family: 'Passion one';
+    font-size: 25px;
+    margin-top: 6mm;
+    color: teal;
+    margin-bottom: 1cm;
+}
+
+.pj2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1 {
+    flex-direction: column;
+    margin: 8mm;
+}
+.c2{
+    width: 4cm;
+}
+
+.title2 {
+    display: flex;
+    justify-content: start;
+    font-family: 'Passion one';
+    font-size: 25px;
+    margin-top: 6mm;
+    color: teal;
+    margin-top: 6cm;
+    margin-bottom: 1cm;
+}
+
+.c1:hover {
+    transition: all 0.2s ease 0s;
+    transform: scale(1.1);
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+}
